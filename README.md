@@ -2,9 +2,7 @@
 
 A production-style Infrastructure as Code (IaC) project built with Terraform to deploy a scalable and highly available AWS architecture using modular design principles.
 
----
 
-## 🏗️ Architecture
 
 ## 🏗️ Architecture Overview
 
@@ -17,15 +15,12 @@ This project deploys a highly available AWS infrastructure:
 - EC2 instances running Apache web server
 - Security Groups for controlled access
 
----
 
-## 🔁 Flow
 
 ## 🔁 Traffic Flow
 
 User Browser → Application Load Balancer → Target Group → Auto Scaling Group → EC2 Instances → HTTP Response
 
----
 
 ## ⚙️ Tech Stack
 
@@ -35,7 +30,6 @@ User Browser → Application Load Balancer → Target Group → Auto Scaling Gro
 - Apache HTTP Server
 - Git & GitHub (Version Control)
 
----
 
 ## 🚀 How to Deploy
 
