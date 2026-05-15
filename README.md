@@ -1,32 +1,39 @@
 # 🚀 Terraform AWS Scalable Infrastructure (VPC + ALB + ASG)
 
-This project builds a **production-style AWS infrastructure** using Terraform modules.
+A production-style Infrastructure as Code (IaC) project built with Terraform to deploy a scalable and highly available AWS architecture using modular design principles.
 
 ---
 
 ## 🏗️ Architecture
 
-- VPC with public subnets
+## 🏗️ Architecture Overview
+
+This project deploys a highly available AWS infrastructure:
+
+- Custom VPC with public subnets
 - Application Load Balancer (ALB)
-- Target Group
-- Auto Scaling Group (ASG)
-- EC2 instances (Apache web server)
-- Security Groups
+- Target Group for traffic routing
+- Auto Scaling Group (ASG) for scalability
+- EC2 instances running Apache web server
+- Security Groups for controlled access
 
 ---
 
 ## 🔁 Flow
 
-Browser → ALB → Target Group → ASG → EC2 → HTTP Response
+## 🔁 Traffic Flow
+
+User Browser → Application Load Balancer → Target Group → Auto Scaling Group → EC2 Instances → HTTP Response
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Terraform
-- AWS (EC2, VPC, ALB, ASG, SG)
+- Terraform (Infrastructure as Code)
+- AWS (VPC, EC2, ALB, Auto Scaling, Security Groups)
 - Amazon Linux 2
 - Apache HTTP Server
+- Git & GitHub (Version Control)
 
 ---
 
@@ -39,4 +46,6 @@ terraform apply
 
 👤 Author
 
-Built by Valarie Mbuh Atsimbom as part of DevOps Freelancing
+Built by **Valarie M Atsimbom**  
+Cloud Engineering & DevOps Learning Project (Hands-on Terraform & AWS Infrastructure)
+Focused on building real-world AWS infrastructure using Terraform
